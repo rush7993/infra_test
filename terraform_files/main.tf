@@ -129,6 +129,7 @@ resource "local_file" "project_key_pem" {
 }
 
 # -------------------------
+
 # EC2
 # -------------------------
 resource "aws_instance" "bastion_server" {
